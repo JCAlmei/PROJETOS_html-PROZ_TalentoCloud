@@ -1,0 +1,23 @@
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1ch;
+}
+
+section {
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1ch;
+}
+  
