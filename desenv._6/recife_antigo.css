@@ -1,0 +1,73 @@
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1ch;
+}
+
+section {
+    display:flex;
+    align-items: center;
+    flex-direction:column;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1ch;
+}
+
+span {
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.center-content {
+    Margin: 0 auto;
+    max-width: 600px; /* Ajuste a largura máxima conforme necessário */
+}
+
+   /* Adicionando estilo ao botão de navegação */
+.dropdown {
+     position: relative;
+     display: inline-block;
+}
+
+.dropdown-content {
+     display: none;
+     position: absolute;
+     background-color: #f9f9f9;
+     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+     z-index: 1;
+     min-width: 160px;
+}
+
+.dropdown:hover .dropdown-content {
+     display: block;
+}
+
+.dropdown-button {
+     background-color: #4CAF50; /* Cor de fundo do botão */
+     color: white; /* Cor do texto do botão */
+     padding: 10px 20px; /* Espaçamento interno do botão */
+     border: none; /* Sem borda */
+     border-radius: 5px; /* Borda arredondada */
+     cursor: pointer; /* Cursor de ponteiro ao passar por cima */
+}
+
+.dropdown-item {
+     padding: 10px;
+     text-decoration: none;
+     display: block;
+     color: #333;
+}
+
+.dropdown-item:hover {
+     background-color: #ddd;
+}
+  
